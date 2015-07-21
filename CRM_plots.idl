@@ -1,0 +1,7 @@
+.run /data/axafd/rac/idl/rac_arread
+.run /data/axafd/rac/idl/rac_arreadbl
+.run /data/axafd/rac/idl/timeconv
+set_plot, 'z'
+device, set_resolution= [650,500],set_colors=7
+.run /data/mta4/proj/rac/ops/CRM/crmpl2
+exit
